@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image #docker build . --file Dockerfile --tag my-image-name:$(date +%s)
       run: |
         docker build -t furniture-classification-app . 
-        docker run -p 80:80 furniture-detection-app
+        docker run -p 80:80 furniture-classification-app
