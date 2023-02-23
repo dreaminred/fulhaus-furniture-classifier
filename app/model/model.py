@@ -9,7 +9,6 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent
 with open(f"{BASE_DIR}/59_0.9683.h5", "rb") as f:
     model = tf.keras.models.load_model(f.name)
 
-
 labels = ['Bed', 'Chair', 'Sofa']
 
 def predict_pipeline(image):
