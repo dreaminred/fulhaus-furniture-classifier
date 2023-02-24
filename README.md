@@ -27,7 +27,7 @@ output = model.predict_pipeline(input)
 ### Python
 + python prepare-dataset.py input output_dir
 + python train-model.py training_data
-### Docker
+### Docker Deployment
 + docker build -t furniture-detection-app .
 + docker run -p 80:80 furniture-detection-app
 
