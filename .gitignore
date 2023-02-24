@@ -4,3 +4,4 @@ main-notebook.ipynb
 *.ipynb
 *.ipynb
 *.ipynb
+.ipynb_checkpoints/
